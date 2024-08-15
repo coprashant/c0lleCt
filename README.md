@@ -1,40 +1,84 @@
-#c0lleCt
-Welcome to colleCt-Egg Catcher Game, a fun and engaging game where you control a basket to catch falling eggs. The game increases in difficulty as you progress, with levels advancing every 10 points scored.
+# c0lleCt
 
-Features
-Catch Eggs: Move the basket to catch falling eggs.
-Score Tracking: Score increases with each egg caught.
-Level System: The level increases every 10 points, affecting game difficulty.
-Background Music: Enjoy background music and sound effects for catching and missing eggs.
-Game Over Screen: Displays your score and provides options to restart or exit the game.
+`c0lleCt` is a simple SFML-based game where players control a basket to catch falling eggs. The game features increasing difficulty levels, sound effects, and a restart/exit option when the game is over.
 
-Requirements
-SFML: This game uses the Simple and Fast Multimedia Library (SFML) for graphics and sound. Ensure you have SFML installed and properly configured.
+## Features
 
-Installation
-1.Clone the Repository: git clone https://github.com/coprashant/c0lleCt.git
-2.Navigate to the Project Directory: cd c0lleCt
-3.Configure SFML: Make sure SFML is installed. Update the CMakeLists.txt to point to your SFML installation if necessary.
-4.Build the Project: mkdir build
-                     cd build
-                     cmake ..
-                     make
-Usage
-Run the Game:
+- **Gameplay**: Move the basket left and right to catch falling eggs.
+- **Difficulty**: The game speed increases as you score more points.
+- **Sound**: Includes background music and sound effects for catching and missing eggs.
+- **Game Over Screen**: Displays when the game ends with options to restart or exit.
+
+## Requirements
+
+- **SFML**: The game is built using the Simple and Fast Multimedia Library (SFML). You need to have SFML installed on your system.
+- **C++ Compiler**: A compatible C++ compiler (e.g., MinGW, GCC, Clang).
+
+
+## Built With
+
+- C++
+
+### Installation
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/coprashant/c0lleCt.git
+
+```
+
+2.Install SFML
+
+Windows: Follow the SFML installation guide for MinGW.
+macOS: Use Homebrew: brew install sfml
+Linux: Use your package manager, e.g., sudo apt-get install libsfml-dev
+
+3.Configure the Project
+
+Ensure that SFML is correctly installed and its paths are properly configured in your CMakeLists.txt
+
+4. Build the Project
+
+```sh
+mkdir build
+cd build
+cmake ..
+make
+
+```
+5.Run the Game
+
+```sh
 ./egg-catcher
+```
 
-Controls:
-Left Arrow / A: Move basket left
-Right Arrow / D: Move basket right
-R: Restart the game (when game over)
-Esc: Exit the game (when game over)
+## Contributing
 
-Gameplay: Catch the eggs falling from the top. Avoid letting them fall outside the window. Your score and level are displayed at the top. The game will end if you miss an egg.
+1.Fork the Repository
 
+Click the "Fork" button at the top right of this repository page on GitHub.
 
-Acknowledgments:
-SFML: For providing the multimedia capabilities.
-Open Source Community: For the tools and resources used in the development of this game.
+2.Create a New Branch
 
-Contact:
-For any issues or contributions, please contact coprashant.
+```sh
+git checkout -b <branch_name>
+```
+3.Make Your Changes
+
+Edit, add, or remove files as needed.
+
+4.Commit Your Changes
+
+```sh
+git commit -m 'Describe your changes'
+```
+
+5.Push to Your Fork
+
+```sh
+git push origin <branch_name>
+```
+6.Open a Pull Request
+
+Go to the original repository on GitHub and open a pull request from your branch.

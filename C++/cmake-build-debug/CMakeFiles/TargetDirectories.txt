@@ -1,0 +1,3 @@
+D:/Programs/Good Projects/c0lleCt/C++/cmake-build-debug/CMakeFiles/c0lleCt.dir
+D:/Programs/Good Projects/c0lleCt/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programs/Good Projects/c0lleCt/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

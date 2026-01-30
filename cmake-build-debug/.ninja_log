@@ -1,0 +1,15 @@
+# ninja log v6
+15	2030	7914939602206916	CMakeFiles/c0lleCt.dir/Game.cpp.obj	5e17a2ce8a565f9a
+5	1375	7914939602106941	CMakeFiles/c0lleCt.dir/main.cpp.obj	f6b46176a54b7bef
+25	1283	7914939602307051	CMakeFiles/c0lleCt.dir/Basket.cpp.obj	ffdf1d22c0cdf835
+34	1277	7914939602406946	CMakeFiles/c0lleCt.dir/Egg.cpp.obj	ee56d3e8d82355c9
+4	586	7914947724921637	build.ninja	8ad25b38dce8dff9
+45	5863	7914942208973214	c0lleCt.exe	d4fac05010e2cec3
+69	2118	7914964766345848	CMakeFiles/c0lleCt.dir/Egg.cpp.obj	ee56d3e8d82355c9
+54	2215	7914964766204455	CMakeFiles/c0lleCt.dir/Basket.cpp.obj	ffdf1d22c0cdf835
+25	2343	7914964765902641	CMakeFiles/c0lleCt.dir/main.cpp.obj	f6b46176a54b7bef
+39	3432	7914964766054301	CMakeFiles/c0lleCt.dir/Game.cpp.obj	5e17a2ce8a565f9a
+3497	5517	7914964800620146	c0lleCt.exe	d4fac05010e2cec3
+87	1880	7914968275289180	CMakeFiles/c0lleCt.dir/Egg.cpp.obj	ee56d3e8d82355c9
+73	3150	7914968275142764	CMakeFiles/c0lleCt.dir/Game.cpp.obj	5e17a2ce8a565f9a
+3150	5082	7914968305915161	c0lleCt.exe	d4fac05010e2cec3
